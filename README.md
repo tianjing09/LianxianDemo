@@ -1,0 +1,2 @@
+# LianxianDemo
+将两组要连线的frame传到lianxianview的frameArray里，就可以进行连线
