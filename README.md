@@ -9,4 +9,5 @@ view.frameArray = frameArray;
 [self.view addSubview:view];
 
 ```
+
 ![](http://upload-images.jianshu.io/upload_images/2262498-737e28217cc3ff5b.gif?imageMogr2/auto-orient/strip)
