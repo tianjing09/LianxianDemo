@@ -29,7 +29,7 @@
     aFrames = [[NSMutableArray alloc]init];
     bFrames  = [[NSMutableArray alloc]init];
     randArray = [[NSMutableArray alloc]init];
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 5; i++) {
         [randArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
     for (int i = 0; i < [randArray count]; i++)
@@ -38,7 +38,7 @@
         [randArray exchangeObjectAtIndex:i withObjectAtIndex: m];
     }
 
-    for (int i =0; i < 3; i++) {
+    for (int i =0; i < 5; i++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(30, 30+(KDeviceHeight-60)/5*i, (kDeviceWidth-60)/4, (KDeviceHeight-60)/7);
         btn.backgroundColor = [UIColor greenColor];
@@ -48,7 +48,7 @@
         [aFrames addObject:NSStringFromCGRect(btn.frame)];
     }
     
-    for (int i =0; i<3; i++) {
+    for (int i =0; i<5; i++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(kDeviceWidth-30-(kDeviceWidth-60)/4, 30+(KDeviceHeight-60)/5*i, (kDeviceWidth-60)/4, (KDeviceHeight-60)/7);
         btn.backgroundColor = [UIColor greenColor];
@@ -59,7 +59,7 @@
     }
     
     NSMutableArray *frameArray = [[NSMutableArray alloc]init];
-    for (int i =0; i<3; i++) {
+    for (int i =0; i<5; i++) {
         NSMutableArray *array = [[NSMutableArray alloc]init];
         [array addObject:[aFrames objectAtIndex:[[randArray objectAtIndex:i]integerValue]]];
         [array addObject:[bFrames objectAtIndex:i]];
