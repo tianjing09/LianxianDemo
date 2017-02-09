@@ -8,3 +8,4 @@ view.frameArray = frameArray;
 [self.view addSubview:view];
 
 ```
+![](http://upload-images.jianshu.io/upload_images/2262498-d1a4d698c3bbad03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
